@@ -38,7 +38,7 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 21px;
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 /***** HEADER *****/
@@ -112,12 +112,14 @@ header nav ul li a{
 	line-height: 25px;
   float: left;
 }
+
 .one-third-w, .two-third-w, .three-third-w {
   width: 399px;
   height: auto;
   float: left;
   border-top: 1px solid #eee;
 }
+
 .two-third-w {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
@@ -171,6 +173,49 @@ footer i{
   font-weight: bolder;
   text-transform: lowercase;
 }
+
+/***** MENU *****/
+
+.main-heading-container {
+  width: 1200px;
+  float: left;
+}
+.fullwidth_mainbody_container{
+  width: 1200px;
+  margin: auto;
+}
+
+.foodmenu-box-container {
+ width: 600px;
+ margin: auto;
+ float: left;
+}
+
+.food-item-title {
+  width: 560px;
+  height: 20px;
+  padding: 10px;
+  float: left;
+}
+.food-item-title h4 {
+  display: inline;
+}
+.foodprice {
+  text-align: right;
+  display: inline;
+  padding-left: 280px;
+  float: right;
+}
+
+.item-description {
+  width: 560px;
+  height: 100px;
+  padding: 10px;
+  text-transform: capitalize;
+  clear: both;
+
+}
+
 
 /***** IMAGE GALLERY *****/
 .image-gallery {
